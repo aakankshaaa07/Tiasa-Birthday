@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  height: 100vh;
+      grid-template-areas: "one two three four" "one thirteen thirteen five" "eleven thirteen thirteen six" "ten nine eight six";
+}
+
+.one {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: one;
+  background-image: url("/oneimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.one:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.two {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: two;
+  background-image: url("/twoimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.two:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.three {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: three;
+  background-image: url("/threeimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.three:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.four {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: four;
+  background-image: url("/fourimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.four:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.five {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: five;
+  background-image: url("/fiveimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.five:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.six {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: six;
+  background-image: url("/siximg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.six:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.eight {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: eight;
+  background-image: url("/eightimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.eight:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.nine {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: nine;
+  background-image: url("/nineimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.nine:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.ten {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: ten;
+  background-image: url("/tenimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.ten:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.eleven {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: eleven;
+  background-image: url("/elevenimg.jpg");
+  background-size: cover;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.eleven:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.thirteen {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: thirteen;
+  background-image: url("/card.png");
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
